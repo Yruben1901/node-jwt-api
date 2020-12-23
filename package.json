@@ -1,0 +1,35 @@
+{
+  "name": "node-jwt",
+  "version": "1.0.0",
+  "description": "Example app about using NodeJS, Passport and JWT from scratch.",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel src --out-dir build",
+    "dev": "nodemon src/app.js --exec babel-node",
+    "start": "node build/app.js"
+  },
+  "keywords": [
+    "JWT",
+    "App",
+    "REST",
+    "API",
+    "MongoDB"
+  ],
+  "author": "Yainier M. Ruben",
+  "license": "BSD",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.6"
+  }
+}

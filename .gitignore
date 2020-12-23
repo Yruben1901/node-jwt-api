@@ -1,0 +1,5 @@
+/package-lock.json
+/src/config/config.js
+/.idea/
+/build/
+/node_modules/
