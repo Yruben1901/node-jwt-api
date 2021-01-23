@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src --out-dir build",
     "dev": "nodemon src/app.js --exec babel-node",
-    "start": "node build/app.js"
+    "start": "node build/app.js",
+    "test":  "jest"
   },
   "keywords": [
     "JWT",
@@ -30,6 +31,8 @@
     "@babel/core": "^7.12.10",
     "@babel/node": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
-    "nodemon": "^2.0.6"
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
   }
 }
